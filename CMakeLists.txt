@@ -20,7 +20,7 @@ add_subdirectory(test)
 # Adding the subdir for gtest
 add_subdirectory(external/googletest)
 
-
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR} ../bin)
 
 # Tells Cmake to add the items in the dir to the include path 
 target_include_directories(${PROJECT_NAME} 

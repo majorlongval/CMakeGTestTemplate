@@ -1,7 +1,7 @@
 set(TestTarget ${CMAKE_PROJECT_NAME}_tst)
 
 
-add_executable(${TestTarget} main.cpp)
+add_executable(${TestTarget} main.cpp otherTestFile.cpp)
 
 
 # Tells Cmake to add the items in the dir to the include path 
