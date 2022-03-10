@@ -11,6 +11,7 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 
+# Work pc compiler stuff
 .ninja_deps
 .ninja_log
 build.ninja
@@ -18,6 +19,9 @@ build.ninja
 
 query.json
 *.json
+
+# Home mac compiling stuff
+*.idx
 
 # Prerequisites
 *.d

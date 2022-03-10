@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "mylibfuncs.h"
+
 int main()
 {
     std::cout<<"Hello World!"<<std::endl;
