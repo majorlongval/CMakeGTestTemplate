@@ -15,13 +15,20 @@ _deps
 .ninja_deps
 .ninja_log
 build.ninja
-
-
 query.json
 *.json
 
 # Home mac compiling stuff
 *.idx
+
+# Removing .cache 
+/.cache
+
+# Everything in build
+/build/**
+
+
+###### CPP Git Ignore
 
 # Prerequisites
 *.d
